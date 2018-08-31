@@ -11,6 +11,8 @@
  *
  * CHANGES
  * -------
+ * 2018/08/30
+ *   - Stop treating lifetime markers as string delimiters
  * 2014/03/18
  *   -  Added support for raw strings
  *   -  Color symbols
@@ -51,7 +53,7 @@ $language_data = array(
         ),
 
     'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
-    'QUOTEMARKS' => array("'", '"'),
+    'QUOTEMARKS' => array('"'),
     'ESCAPE_CHAR' => '',
     'ESCAPE_REGEXP' => array(
         //Simple Single Char Escapes
